@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-#Script that only prints desired content into a new text file.
+#!/bin/bash
 
 #Matches pattern based on the comma
 sed -E 's/\* ([a-zA-Z]+), ([a-zA-Z]+)/1. \1\n2. \2\n/' < r0_input.txt > r0_output.txt
